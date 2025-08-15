@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(109, 94, 114);
+}
+
+.profile_card {
+   max-width: 420px;
+   width: 100%;
+   background-color: beige;
+   border-radius: 24px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   position: relative;
+}
+
+.banner-top {
+   background-image: url(banner.png);
+   max-width: 420px;
+   width: 100%;
+   height: 40%;
+   margin-bottom: 20px;
+   text-align: center;
+   border-radius: 24px 24px 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.media {
+   display: flex;
+   position: relative;
+   left: 120px;
+   align-items: center;
+   margin: 15px;
+   background-color: black;
+   border-radius: 18px;
+   opacity: 0.8;
+}
+
+.media a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #ffff;
+   margin: 5px;
+   font-size: 20px;
+   height: 34px;
+   width: 30px;
+   border-radius: 18px;
+   background-color: black;
+   text-decoration: none;
+}
+
+.media a:hover {
+   transform: scale(1.3);
+}
+
+.center-img {
+   position: relative;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   padding: 3px;
+   margin-bottom: -60px;
+}
+
+.center-img .img {
+   width: 100%;
+   text-align: center;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 10px;
+   border: 2px solid black;
+}
+
+.lower {
+   margin-bottom: 20px;
+}
+
+.heading {
+   margin-top: 65px;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.follow-btn {
+   text-align: center;
+}
+
+.follow-btn .follow {
+   color: white;
+   background-color: black;
+   margin: 10px;
+   text-align: center;
+   border-radius: 8px;
+   border: none;
+   padding: 8px 24px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.follow-btn .follow:hover {
+   transform: scale(1.1);
+}
+
+.stats {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   margin: 8px;
+}
+
+.stats .num span {
+   font-weight: 700;
+   font-size: large;
+   margin: 28px;
+}
+
+.stats .txt {
+   margin: 5px;
+   position: relative;
+   left: 10px;
+}
+
+.stats .txt span {
+   text-align: center;
+   font-weight: 600;
+   font-size: medium;
+   margin: 10px;
+}
+
+.achives {
+   font-size: medium;
+   font-weight: 500;
+   margin: 20px;
+}
+
+.achives ul li {
+   margin-left: 20px;
+   line-height: 25px;
+}
+
+.buttons {
+   text-align: center;
+}
+
+.buttons button {
+   color: white;
+   background-color: black;
+   margin: 10px;
+   text-align: center;
+   border-radius: 8px;
+   border: none;
+   padding: 8px 24px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.buttons button:hover {
+   transform: scale(1.1);
+}
+
+hr {
+   width: 400px;
+   margin: auto;
+}
