@@ -20,5 +20,3 @@ HTML5 – Structure of the cards
 CSS3 – Styling and animations
 
 📸 Preview
-
-(Add a screenshot or GIF of your project here)
